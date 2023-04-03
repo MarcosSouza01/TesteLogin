@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-body{
-    min-height: 100vh;
+html, body{
+    height: 90vh;
     background: RoyalBlue;
     display: flex;
     align-items: center;
@@ -16,7 +16,12 @@ body{
     position: absolute;
     background: transparent;
     width: 90%;
-    height: 85%;
+    height: 75%;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
     border-radius: 30px;
     box-shadow: black  10px 10px 70px;
     display: flex;
