@@ -1,0 +1,25 @@
+@media screen and (min-width: 500px) and (max-width: 700px){
+
+    html, body {
+        height: 90vh;
+    }
+
+    ::-webkit-input-placeholder{
+        color: rgb(240, 26, 26);
+    }
+    label{
+        left: -38%;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 1000px){
+    .login{
+        width: 70%;
+        height: 85%;
+    }
+    label{
+        left: -38%;
+    }
+    ::-webkit-input-placeholder{
+        color: rgb(243, 193, 193);
+    }
+}
