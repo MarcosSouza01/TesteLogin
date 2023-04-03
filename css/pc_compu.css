@@ -1,0 +1,9 @@
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+    button{
+        width: 30%;
+    }
+    .login{
+        width: 50%;
+        height: 85%;
+    }
+}
