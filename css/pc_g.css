@@ -4,7 +4,7 @@
 }
 
 html, body{
-    height: 90vh;
+    height: 100vh;
     background: RoyalBlue;
     display: flex;
     align-items: center;
@@ -15,9 +15,8 @@ html, body{
 .login{
     position: absolute;
     background: transparent;
-    width: 90%;
-    height: 100%;
-
+    width: 70%;
+    height: 65%;
     border-radius: 30px;
     box-shadow: black  10px 10px 70px;
     display: flex;
@@ -38,6 +37,7 @@ input{
 button{
     width: 50%;
     padding: 10px;
+    margin-top: 10%;
     background: blue;
     border: 2px solid RoyalBlue;
     outline: none;
@@ -57,9 +57,10 @@ h1{
 }
 label{
     position: relative;
-    left: -35%;
-    padding: 4px;
+    left: -41%;
+    padding: 3px;
     font-size: 1.5em;
+    color: rgb(1, 21, 84);
 }
 ::-webkit-input-placeholder{
     color: black;
