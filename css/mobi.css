@@ -1,11 +1,11 @@
-@media screen and (min-width: 500px) and (max-width: 765px){
+@media screen and (max-width: 765px){
 
-    ::-webkit-input-placeholder{
-        color: rgb(240, 26, 26);
+    .login{
+        box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.467);
     }
 
     label{
-        left: -38%;
+        left: -37%;
     }
     input {
         padding-bottom: 3px;
